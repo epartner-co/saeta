@@ -1807,7 +1807,6 @@
 }
 .infoCardImageContainer--Purpose__slider-item {
   margin-bottom: 17px;
-  padding: 5px;
 }
 .infoCardImage--Purpose__slider-item {
   border-radius: 10px;
@@ -1840,6 +1839,89 @@
   content: 'Marca';
 }
 .infoCardContainer--News__slider-item {
+  height: 100%;
   border-radius: 10px;
+}
+.infoCardCallActionContainer--News__slider-item :global(.vtex-button__label) {
+  padding: 15px 25px !important;
+  color: #000131;
+  background-color: #fbce2f;
+  border-radius: 100px;
+  font-size: 15px;
+  font-family: 'Anybody';
+  text-transform: uppercase;
+}
+/* !Blog cards */
+.infoCardTextContainer--Blog__item {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.infoCardContainer--Blog__item {
+  display: flex;
+  flex-direction: column-reverse;
+  padding-top: 20px;
+}
+.infoCardImage--Blog__item {
+  border-radius: 10px;
+}
+.infoCardHeadline--Blog__item {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+  color: #000131;
+  font-family: 'Anybody';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+  text-align: left;
+}
+.infoCardHeadline--Blog__item::before {
+  color: #fbce2f;
+  font-family: 'Anybody';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+}
+.infoCardHeadline--Blog__item--post1::before {
+  content: 'etiqueta';
+}
+.infoCardHeadline--Blog__item--post2::before {
+  content: 'etiqueta';
+}
+.infoCardSubhead--Blog__item {
+  margin: 0;
+  text-align: justify;
+}
+.infoCardCallActionContainer--Blog__item {
+  margin-bottom: 0;
+  width: 100%;
+  text-align: end;
+}
+.infoCardSubhead--Blog__item {
+  color: black;
+  font-family: 'Anybody';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0em;
+}
+.infoCardCallActionContainer--Blog__item :global(.vtex-button__label) {
+  padding-right: 0;
+  color: #0616c4;
+  font-family: 'Anybody';
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+/* !Slider bottom */
+.imageElement--Slider__item {
+  border-radius: 5px;
 }
 /* * //New styles About us Page */

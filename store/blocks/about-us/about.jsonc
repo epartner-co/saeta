@@ -5,7 +5,8 @@
     },
     "blocks": [
       "info-card#banner-top",
-      "flex-layout.row#main-content"
+      "flex-layout.row#main-content",
+      "flex-layout.row#slider-content"
       /* "info-card#QuienesSomosM",
       "flex-layout.row#quinesSomos2",
       "flex-layout.row#quinesSomos3",
@@ -33,12 +34,19 @@
     "props": {
       "blockClass": ["About__information-container"]
     },
-    "children": [
-      "flex-layout.row#container-info__purpose",
-      "flex-layout.row#container-info__news"
-      /* "flex-layout.row#container-info__blog",
-      "flex-layout.row#container-info__slider" */
-    ]
+    "children": ["flex-layout.row#container-info__purpose", "flex-layout.row#container-info__news", "flex-layout.row#container-info__blog"]
+  },
+  "flex-layout.row#slider-content": {
+    "props": {
+      "blockClass": ["About__slider"]
+    },
+    "children": ["flex-layout.col#container-slider"]
+  },
+  "flex-layout.col#container-slider": {
+    "props": {
+      "blockClass": ["About__slider-container"]
+    },
+    "children": ["flex-layout.row#slider-content"]
   }
   /* "info-card#QuienesSomosM": {
     "props": {

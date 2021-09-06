@@ -1,0 +1,48 @@
+{
+  "flex-layout.row#container-info__blog": {
+    "props": {
+      "blockClass": ["Blog"]
+    },
+    "children": ["flex-layout.col#blog"]
+  },
+  "flex-layout.col#blog": {
+    "props": {
+      "blockClass": ["Blog__container"]
+    },
+    "children": ["rich-text#blog-title", "info-card#blog-post1", "info-card#blog-post2"]
+  },
+  "rich-text#blog-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "# revisa nuestro blog",
+      "blockClass": ["Blog__title"]
+    }
+  },
+  "info-card#blog-post1": {
+    "props": {
+      "blockClass": ["Blog__item", "Blog__item--post1"],
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "TÍTULO DEL BLOG",
+      "subhead": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
+      "textAlignment": "center",
+      "callToActionText": "leer más",
+      "callToActionUrl": "#"
+    }
+  },
+  "info-card#blog-post2": {
+    "props": {
+      "blockClass": ["Blog__item", "Blog__item--post2"],
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "TÍTULO DEL BLOG",
+      "subhead": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
+      "textAlignment": "center",
+      "callToActionText": "leer más",
+      "callToActionUrl": "#"
+    }
+  }
+}

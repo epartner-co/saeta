@@ -192,11 +192,11 @@
   background: transparent;
 }
 /* !News slider */
-.slideChildrenContainer--News__slider {
-  padding: 5px;
-}
 .slide--News__slider--hidden {
   background: transparent;
 }
-
+/* !Slider bottom */
+.slide--Slider__images-container--hidden {
+  background: transparent;
+}
 /* * //New styles About us Page */

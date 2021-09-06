@@ -612,7 +612,13 @@
   position: relative;
   top: -330px;
   margin: 5px auto;
+  padding: 5px;
   width: 93%;
   background-color: white;
+}
+/* !Slider bottom */
+.flexRow--Slider {
+  position: relative;
+  top: -330px;
 }
 /* * //New styles About us Page */
