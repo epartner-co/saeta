@@ -1,0 +1,237 @@
+{
+    "store.custom#faqs": {
+      "blocks": [
+        "info-card#bannerFaqsM",
+        "info-card#bannerFaqs",
+        "rich-text#title-faqsM",
+        "flex-layout.row#faqs",
+        "flex-layout.row#faqsMobile"
+      ]
+    },
+  
+    "flex-layout.row#faqs": {
+      "children": [
+        "flex-layout.col#text-faqs1",
+        "flex-layout.col#text-faqs"
+      ],
+      "props":{
+        "blockClass": "FaqsColumn"
+      }
+    },
+    "flex-layout.col#text-faqs1": {
+      "children": [
+        "rich-text#titles-faqs1",
+        "rich-text#titles-faqs2",
+        "rich-text#titles-faqs3",
+        "rich-text#titles-faqs4",
+        "rich-text#titles-faqs5",
+        "rich-text#titles-faqs6",
+        "rich-text#titles-faqs7",
+        "rich-text#titles-faqs8"
+      ],
+      "props": {
+        "blockclass": "textColumn1",
+        "preventVerticalStretch": true,
+        "width": "20%",
+        "rowGap": 0
+      }
+    },
+    "info-card#bannerFaqs":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://impormedical.vteximg.com.br/arquivos/bannerestaticab2c2.png",
+        "callToActionUrl": "#",
+        "textPosition": "CENTER",
+        "textAlignment": "CENTER",
+        "blockClass":"bannerC"
+      }
+    },
+    "info-card#bannerFaqsM":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://impormedical.vteximg.com.br/arquivos/bannerestaticab2c_mobile2Faqs.png",
+        "callToActionUrl": "#",
+        "textPosition": "CENTER",
+        "textAlignment": "CENTER",
+        "blockClass":"bannerM"
+      }
+    },
+    "flex-layout.col#text-faqs": {
+      "children": [
+        "rich-text#title-faqs",
+        "rich-text#faqs"
+      ],
+      "props": {
+        "blockclass": "textColumn",
+        "preventVerticalStretch": true,
+        "width": "80%",
+        "rowGap": 0
+      }
+    },
+    "rich-text#titles-faqs1":{
+      "props": {
+        "text":"[FAQs](https://impormedicalf--impormedical.myvtex.com/faqs)",
+        "blockClass": "tituloEstaticos"
+      }
+    },
+    "rich-text#titles-faqs2":{
+      "props": {
+        "text":"[PREGUNTAS FRECUENTES](https://impormedicalf--impormedical.myvtex.com/faqs)",
+        "blockClass": "contenidoEstaticas"
+      }
+    },
+    "rich-text#titles-faqs3":{
+      "props": {
+        "text":"[COMPRAR](https://impormedicalf--impormedical.myvtex.com/faqs)",
+        "blockClass": "tituloEstaticos"
+      }
+    },
+    "rich-text#titles-faqs4":{
+      "props": {
+        "text":"[DEVOLUCIÓN](https://impormedicalf--impormedical.myvtex.com/faqs)",
+        "blockClass": "tituloEstaticos"
+      }
+    },
+    "rich-text#titles-faqs5":{
+      "props": {
+        "text":"[CÓMO DEVOLVER](https://impormedicalf--impormedical.myvtex.com/faqs)",
+        "blockClass": "contenidoEstaticas"
+      }
+    },
+    "rich-text#titles-faqs6":{
+      "props": {
+        "text":"[REMMBOLSO](https://impormedicalf--impormedical.myvtex.com/faqs)",
+        "blockClass": "contenidoEstaticas"
+      }
+    },
+    "rich-text#titles-faqs7":{
+      "props": {
+        "text":"[MI CUENTA](https://impormedicalf--impormedical.myvtex.com/faqs)",
+        "blockClass": "tituloEstaticos"
+      }
+    },
+    "rich-text#titles-faqs8":{
+      "props": {
+        "text":"[CUENTA](https://impormedicalf--impormedical.myvtex.com/faqs)",
+        "blockClass": "contenidoEstaticas"
+      }
+    },
+    "rich-text#title-faqs": {
+      "props": {
+        "text":
+        "# POLÍTICAS DE PRIVACIDAD",
+        "blockClass": "textoquien"
+      }
+    },
+    "rich-text#title-faqsM": {
+      "props": {
+        "text":
+        "# POLÍTICAS DE PRIVACIDAD",
+        "blockClass": "textoquienM"
+      }
+    },
+  
+    "rich-text#faqs": {
+      "props": {
+        "text": 
+        " 1.  Definiciones para efectos de las políticas de Tratamiento de datos personales. \n 2.  Principios para el tratamiento de datos personales \n 3.  Autorización para el tratamiento de datos personales \n 4.  Finalida-des del tratamiento de datos personales. \n 5.  Procedimiento para el tratamien-to de datos personales \n 6. Procedimiento para conocer, actualizar, rectifi-car, suprimir información o revocar la autorización. \n 7. Procedimiento para reali-zar reclamos relacionados con el tratamiento de datos personales \n 8.  Dere-chos del titular de dato personal. \n 9.  Ejercicio de los derechos sobre de Datos personales Deberes del responsable del Tratamiento de Datos Persona-les \n 10.  Deberes del responsable del Tratamiento de Datos Personales \n 11.  Vigencia de la Política \n 12.  Otras disposiciones \n 13.  Información Estadística \n 14.  Uso correcto del Sitio Web \n 15. El Titular del dato se compromete específicamente \n 16.  Consentimiento",
+        "blockClass": "textostilo"
+      }
+    },
+    //Mobile para faqs
+    "flex-layout.row#faqsMobile": {
+      "children": [
+        "flex-layout.col#text-faqsMobile"
+      ],
+      "props":{
+        "blockClass": "FaqsColumnM"
+      }
+    },
+    "flex-layout.col#text-faqsMobile": {
+      "children": [
+        "disclosure-layout#simple",
+        "disclosure-layout#simple2",
+        "disclosure-layout#simple3",
+        "disclosure-layout#simple4"
+      ],
+      "props": {
+        "blockclass": "textColumn",
+        "preventVerticalStretch": true,
+        "width": "80%",
+        "rowGap": 0
+      }
+    },
+    //desplegables
+    "disclosure-layout#simple": {
+      "children": ["disclosure-trigger#simple", "disclosure-content#simple"]
+    },
+    "disclosure-trigger#simple": {
+      "children": ["rich-text#question"]
+    },
+    "disclosure-content#simple": {
+      "children": ["rich-text#faqs"]
+    },
+    "rich-text#question": {
+      "props": {
+        "text": "FAQS",
+        "blockClass": "TituloMobile"
+      }
+    },
+    //SEGUNDO DESPLEGABLE
+    "disclosure-layout#simple2": {
+      "children": ["disclosure-trigger#simple2", "disclosure-content#simple2"],
+      "props": {
+        "animated": true
+      }
+    },
+    "disclosure-trigger#simple2": {
+      "children": ["rich-text#question2"]
+    },
+    "disclosure-content#simple2": {
+      "children": ["rich-text#faqs"]
+    },
+    "rich-text#question2": {
+      "props": {
+        "text": "COMPRAS",
+        "blockClass": "TituloMobile"
+      }
+    },
+    // TERCER DESPLEGABLE
+    "disclosure-layout#simple3": {
+      "children": ["disclosure-trigger#simple3", "disclosure-content#simple3"],
+      "props": {
+        "animated": true
+      }
+    },
+    "disclosure-trigger#simple3": {
+      "children": ["rich-text#question3"]
+    },
+    "disclosure-content#simple3": {
+      "children": ["rich-text#faqs"]
+    },
+    "rich-text#question3": {
+      "props": {
+        "text": "DEVOLUCIÓN",
+        "blockClass": "TituloMobile"
+      }
+    },
+    //CUARTO DEESPLEGABLE
+    "disclosure-layout#simple4": {
+      "children": ["disclosure-trigger#simple4", "disclosure-content#simple4"],
+      "props": {
+        "animated": true
+      }
+    },
+    "disclosure-trigger#simple4": {
+      "children": ["rich-text#question4"]
+    },
+    "disclosure-content#simple4": {
+      "children": ["rich-text#faqs"]
+    },
+    "rich-text#question4": {
+      "props": {
+        "text": "MI CUENTA",
+        "blockClass": "TituloMobile"
+      }
+    }
+}

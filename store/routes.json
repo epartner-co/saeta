@@ -1,0 +1,18 @@
+{
+    "store.custom#about-us": {
+        "path": "/quienes-somos"
+      },
+    "store.custom#aviso-privacidad": {
+        "path": "/aviso-privacidad"
+    },
+    "store.custom#terminos": {
+        "path": "/terminos-condiciones"
+    },
+    "store.custom#faqs": {
+      "path": "/faqs"
+    },
+    "store.custom#registration": {
+      "path": "/registration"
+    }
+
+  }

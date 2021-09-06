@@ -1,0 +1,798 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": { 
+    "children": [
+      "flex-layout.row#PREHEADER",
+      "flex-layout.row#footerD",
+      "rich-text#copyright"
+    ]
+  },
+  "footer-layout.mobile": { 
+    "children": [
+     /* "flex-layout.row#footerM0",*/
+      "flex-layout.row#footerM",
+      "flex-layout.row#footerM2",
+      "rich-text#footitle7",
+      "image#BannerPagos",
+      "flex-layout.row#extrafootM"
+    ]
+  },
+  "flex-layout.row#footerM0":{
+    "children":[
+      "flex-layout.col#footer6"
+    ],
+    "props":{
+      "blockClass":"footercon"
+    }
+  },
+  "flex-layout.row#footerM2":{
+    "children":[
+      "flex-layout.col#footer1"
+    ],
+    "props":{
+      "blockClass":"footercon"
+    }
+  },
+  "flex-layout.row#footerM":{
+    "children":[
+      "flex-layout.col#footer4",
+      "flex-layout.col#footer5"
+    ],
+    "props":{
+      "blockClass":"footercon"
+    }
+  },
+  //Inicio decolarado
+  "flex-layout.row#footerD":{
+    "children":[
+      "flex-layout.col#footer1",
+      "flex-layout.col#footer4",
+      "flex-layout.col#footer5",
+      "flex-layout.col#FOOTERCOLUMNA-FINAL"
+
+    ],
+    "props":{
+      "blockClass":"footercon"
+    }
+  },
+
+  //Columna 1
+  "flex-layout.col#footer1":{
+    "children":[
+      "rich-text#footitle",
+      "rich-text#foo3",
+      "rich-text#foo4",
+      "rich-text#foo41"
+    ],
+    "props":{
+      "blockClass": "footerC"
+    }
+  },
+  "rich-text#footitle":{
+    "props": {
+      "text": "SOBRE NOSOSTROS",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": ["titleF","titleLast"]
+    }
+  },
+  "rich-text#foo3":{
+    "props": {
+      "text": "[¿Quienes somos?](/quienes-somos)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo4":{
+    "props": {
+      "text": "[Nuestra Historia](/quienes-somos)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo41":{
+    "props": {
+      "text": "[Nuestra Información](/quienes-somos)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  //Columna 2
+  "flex-layout.col#footer2":{
+    "children":[
+      "rich-text#footitle1",
+      "rich-text#foo6",
+      "rich-text#foo7",
+      "rich-text#foo8",
+      "rich-text#foo9"
+    ],
+    "props":{
+      "blockClass": "footerC"
+    }
+  },
+  "rich-text#footitle1":{
+    "props": {
+      "text": "HUB",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "titleF"
+    }
+  },
+  "rich-text#foo6":{
+    "props": {
+      "text": "[Quienes Somos](https://stilotex.com/nosotros/#historia)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo7":{
+    "props": {
+      "text": "[Identidad corporativa](/quienes-somos)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo8":{
+    "props": {
+      "text": "",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo9":{
+    "props": {
+      "text": "",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  //Columna 3
+  "flex-layout.col#footer3":{
+    "children":[
+      "rich-text#footitle3",
+      "rich-text#foo10",
+      "rich-text#foo11",
+      "rich-text#foo12"
+    ],
+    "props":{
+      "blockClass": "footerC"
+    }
+  },
+  "rich-text#footitle3":{
+    "props": {
+      "text": "Por ser parte de nosotros",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "titleF"
+    }
+  },
+  "rich-text#foo10":{
+    "props": {
+      "text": "[Beneficios](/Beneficios)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo11":{
+    "props": {
+      "text": "",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo12":{
+    "props": {
+      "text": "",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  //Columna 4
+  "flex-layout.col#footer4":{
+    "children":[
+      "rich-text#footitle4",
+      "rich-text#foo13",
+      "rich-text#foo14",
+      "rich-text#foo15",
+      "rich-text#foo150",
+      "rich-text#foo151",
+      "rich-text#foo152",
+      "rich-text#foo153"
+    ],
+    "props":{
+      "blockClass": "footerC"
+    }
+  },
+  "rich-text#footitle4":{
+    "props": {
+      "text": "CATEGORIAS DESTACADAS",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "titleF"
+    }
+  },
+  "rich-text#foo13":{
+    "props": {
+      "text": "[Profesionales de la salud ](/Profesionales-de-la-salud)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo14":{
+    "props": {
+      "text": "[Protección e Higiene](/proteccion-e-higiene)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo15":{
+    "props": {
+      "text": "[Control y prevención](/control-y-prevencion)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo150":{
+    "props": {
+      "text": "[Movilidad](/movilidad)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo151":{
+    "props": {
+      "text": "[Independencia y cuidado en el hogar](/independencia-y-cuidado-en-el-hogar)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo152":{
+    "props": {
+      "text": "[Terapia respiratoria](/terapia-respiratoria)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo153":{
+    "props": {
+      "text": "[Confort](/confort)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  //Columna 5
+  "flex-layout.col#footer5":{
+    "children":[
+      "rich-text#footitle5",
+      "rich-text#foo16",
+      "rich-text#foo17",
+      "rich-text#foo18",
+      "rich-text#foo161",
+      "rich-text#foo171",
+      "rich-text#foo181",
+      "rich-text#foo162"
+    ],
+    "props":{
+      "blockClass": "footerC"
+    }
+  },
+  "rich-text#footitle5":{
+    "props": {
+      "text": "SERVICIO AL CLIENTE",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": ["titleF","titleLast"]
+    }
+  },
+  "rich-text#foo16":{
+    "props": {
+      "text": "[Politica de entregas](/faqs)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo17":{
+    "props": {
+      "text": "[Politica de devoluciones](/faqs)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo18":{
+    "props": {
+      "text": "[Politica de garantias](/faqs)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo161":{
+    "props": {
+      "text": "[Politica de cancelación](/faqs)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo171":{
+    "props": {
+      "text": "[WhatsApp 123 123 3434](https://crear.wa.link/)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo181":{
+    "props": {
+      "text": "[PBX 01 80000 123 456](/faqs)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo162":{
+    "props": {
+      "text": "[e-mail info@impormedical.com](mailto:info@impormedical.com)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFooM"
+    }
+  },
+  //Columna 6
+  "flex-layout.col#footer6":{
+    "children":[
+      "rich-text#footitle6",
+      "flex-layout.row#form",
+      "rich-text#footitle7",
+      "image#BannerPagosD"
+    ],
+    "props":{
+      "blockClass": ["footerC","ultimaIlera"]
+    }
+  },
+  "image#BannerPagosD": {
+    "props": {
+      "src": "https://impormedical.vteximg.com.br/arquivos/pixlr-bg-result.png",
+      "blockClass":"BannerPagosD"
+    }
+  },
+  "image#BannerPagos": {
+    "props": {
+      "src": "https://impormedical.vteximg.com.br/arquivos/pixlr-bg-result.png",
+      "blockClass":"BannerPagos"
+    }
+  },
+  "rich-text#footitle6":{
+    "props": {
+      "text": "SUSCRÍBASE A NUESTRO NEWSLETTER",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": ["titleF","tituloNewsletter"]
+    }
+  },
+  "rich-text#footitle7":{
+    "props": {
+      "text": "Nuestros metodos de pago",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFooM"
+    }
+  },
+  "flex-layout.row#form": {
+    "children": [
+      "flex-layout.col#form"
+    ]
+  },
+  "flex-layout.col#form": {
+    "children": [
+      "newsletter-form"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": false,
+      "blockClass": ["inputsNewsletter"]
+    }
+  },
+  "newsletter-form": {
+    "children": [
+      "flex-layout.row#inputs",
+      "newsletter-checkbox-confirmation"
+    ]
+  },
+  "flex-layout.row#inputs": {
+    "children": [
+
+      "newsletter-input-email",
+      "newsletter-submit"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": false,
+      "blockClass": ["inputsNewsletter"]
+    }
+
+  },
+  "newsletter-input-email":{
+    "props":{
+      "placeholderText":"Correo Electrónico"
+    }
+  },
+  "newsletter-submit":{
+    "props":{
+      "submitButtonLabel":"ENVIAR"
+    }
+  },
+  "newsletter-checkbox-confirmation":{
+    "props":{
+      "checkboxLabel":"Aceptación de términos y condiciones de manejo de datos"
+    }
+  },
+  //last part footer
+  "flex-layout.row#extrafootM":{
+    "children":[
+      "rich-text#foo1",
+      "info-card#foo2",
+      "info-card#foo3"
+    ],
+    "props":{
+      "blockClass": "lastF"
+    } 
+  },
+  "flex-layout.row#extrafoot":{
+    "children":[
+      "flex-layout.col#last1",
+      "flex-layout.col#last2",
+      "flex-layout.col#last3"
+    ],
+    "props":{
+      "blockClass": "lastF"
+    }   
+  },
+  "flex-layout.col#last1":{
+    "children":[
+      "rich-text#foo1"
+    ],
+    "props":{
+      "blockClass": "firstCon"
+    }
+  },
+  "flex-layout.col#last2":{
+    "children":[
+      "info-card#foo2"
+    ],
+    "props":{
+      "blockClass": "secondCon"
+    }
+  },
+  "flex-layout.col#last3":{
+    "children":[
+      "info-card#foo3"
+    ],
+    "props":{
+      "blockClass": "thirdCon"
+    }
+  },
+  "rich-text#foo1":{
+    "props": {
+      "text": "Desarrollado por",
+      "textAlignment": "right",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textfool"
+    }
+  },
+  "info-card#foo2":{
+    "props":{
+      "id":"texto",
+      "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/logoepartner.png",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "blockClass":"textfool2"
+    }
+  },
+  "info-card#foo3":{
+    "props":{
+      "id":"texto",
+      "imageUrl":"https://impormedical.vteximg.com.br/arquivos/logovtexepartnerla.png",
+      "textPosition": "left",
+      "textAlignment": "right",
+      "blockClass":"textfool3"
+    }
+  },
+
+
+
+  //*************************************************************************** PRE FOOTER
+
+  "flex-layout.row#PREHEADER":{
+    "children":[
+      "info-card#LOGO-PREFOOTER",
+      "flex-layout.col#contacto-PreHeader",
+      "flex-layout.row#PREfooter-redes"
+    ],
+    "props":{
+      "blockClass": "PREfooter-CONTENT"
+    }
+  },
+
+  "info-card#LOGO-PREFOOTER":{
+    "props":{
+      "id":"texto",
+      "imageUrl":"https://saetasport.vteximg.com.br/arquivos/LOGO-PREFOOTER.png",
+      "blockClass":"LOGO-PREFOOTER"
+    }
+  },
+  "flex-layout.col#contacto-PreHeader":{
+    "children":[
+      "rich-text#contacto-PreHeader",
+      "rich-text#contacto-PreHeader1",
+      "flex-layout.row#tiendaymapa"
+    ],
+    "props":{
+      "blockClass": "contacto-box"
+    }   
+  },
+  
+  "rich-text#contacto-PreHeader":{
+    "props": {
+      "text": "Carrera 47 # 11 - 45, Medellín, Colombia",
+      "textAlignment": "left",
+      "textPosition": "left",
+      "blockClass": "contacto-texto"
+    }
+  },
+  "rich-text#contacto-PreHeader1":{
+    "props": {
+      "text": "(034) 452 46 58",
+      "textAlignment": "left",
+      "textPosition": "left",
+      "blockClass": "contacto-texto"
+    }
+  },
+  "flex-layout.row#tiendaymapa":{
+    "children":[
+      "info-card#contacto-PreHeader1",
+      "info-card#contacto-PreHeader2"
+    ],
+    "props":{
+      "blockClass": "PREfooter-CONTENT"
+    }
+  },
+  "info-card#contacto-PreHeader1":{
+    "props":{
+      "id":"texting",
+      "imageUrlc":"https://saetasport.vteximg.com.br/arquivos/pre-footer-mapa.png",
+      "callToActionUrl": "/#",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "MAPA",
+      "callToActionMode": "link",
+      "blockClass":"mapa-pre-footer"
+    }
+  },
+  "info-card#contacto-PreHeader2":{
+    "props":{
+      "id":"texting",
+      "imageUrl":"https://saetasport.vteximg.com.br/arquivos/pre-footer-tienda.png",
+      "callToActionUrl": "/#",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "TIENDA",
+      "callToActionMode": "link",
+      "blockClass":"tienda-pre-footer"
+    }
+  },
+  "flex-layout.row#PREfooter-redes":{
+    "children":[
+      "info-card#contacto-PreHeader-redes-pinterest",
+      "info-card#contacto-PreHeader-redes-instagram",
+      "info-card#contacto-PreHeader-redes-facebook",
+      "info-card#contacto-PreHeader-redes-twitter"
+    ],
+    "props":{
+      "blockClass": "PREfooter-CONTENT"
+    }
+  },
+  "info-card#contacto-PreHeader-redes-pinterest":{
+    "props":{
+      "id":"texting",
+      "imageUrl":"https://saetasport.vteximg.com.br/arquivos/footer-redes-pinteres.png",
+      "callToActionUrl": "/#",
+      "callToActionMode": "link",
+      "blockClass":"tienda-pre-footer-redes"
+    }
+  },
+  "info-card#contacto-PreHeader-redes-instagram":{
+    "props":{
+      "id":"texting",
+      "imageUrl":"https://saetasport.vteximg.com.br/arquivos/footer-redes-instagram.png",
+      "callToActionUrl": "/#",
+      "callToActionMode": "link",
+      "blockClass":"tienda-pre-footer-redes"
+    }
+  },
+  "info-card#contacto-PreHeader-redes-facebook":{
+    "props":{
+      "id":"texting",
+      "imageUrl":"https://saetasport.vteximg.com.br/arquivos/footer-redes-facebook.png",
+      "callToActionUrl": "/#",
+      "callToActionMode": "link",
+      "blockClass":"tienda-pre-footer-redes"
+    }
+  },
+  "info-card#contacto-PreHeader-redes-twitter":{
+    "props":{
+      "id":"texting",
+      "imageUrl":"https://saetasport.vteximg.com.br/arquivos/footer-redes-twitter.png",
+      "callToActionUrl": "/#",
+      "callToActionMode": "link",
+      "blockClass":"tienda-pre-footer-redes"
+    }
+  },
+  "flex-layout.col#FOOTERCOLUMNA-FINAL":{
+    "children":[
+      "rich-text#mEDIOS-DE-PAGO",
+      "image#BANNERMEDIOSPAGO",
+      "flex-layout.row#epartner"
+    ],
+    "props":{
+      "blockClass": "contacto-box"
+    }   
+  },
+  "image#BANNERMEDIOSPAGO": {
+    "props": {
+      "src": "https://saetasport.vteximg.com.br/arquivos/footer-pagos.png"
+    }
+  },
+  "rich-text#mEDIOS-DE-PAGO":{
+    "props": {
+      "text": "Medios de Pago",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "sUBTITULO-FOOTER"
+    }
+  },
+  "rich-text#DESARROLADOPOR":{
+    "props": {
+      "text": "Desarrollador Por:",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "sUBTITULO-FOOTER"
+    }
+  },
+  "rich-text#tecno":{
+    "props": {
+      "text": "Tecnología:",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "sUBTITULO-FOOTER"
+    }
+  },
+  "rich-text#preguntasfrecuentes":{
+    "props": {
+      "text": "Preguntas Frecuentes",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "sUBTITULO-FOOTER"
+    }
+  },
+  "rich-text#productos":{
+    "props": {
+      "text": "Nosotros",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "sUBTITULO-FOOTER"
+    }
+  },
+  "rich-text#nosotros":{
+    "props": {
+      "text": "Nosotros",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "sUBTITULO-FOOTER"
+    }
+  },
+  "rich-text#copyright":{
+    "props": {
+      "text": "Copyright - Saeta Corp 2021",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "linea-final"
+    }
+  },
+  "flex-layout.row#epartner":{
+    "children":[
+      "flex-layout.col#epartner",
+      "flex-layout.col#vtex"
+    ],
+    "props":{
+      "blockClass": "desarroladoypoweredbyz"
+    }
+  },
+  "flex-layout.col#epartner":{
+    "children":[
+      "rich-text#DESARROLADOPOR",
+      "image#ePartner"
+    ],
+    "props":{
+      "blockClass": "desarroladoypoweredbyz"
+    }
+  },
+  "flex-layout.col#vtex":{
+    "children":[
+      "rich-text#tecno",
+      "image#vtex"
+    ],
+    "props":{
+      "blockClass": "desarroladoypoweredbyz"
+    }
+  },
+  "image#ePartner": {
+    "props": {
+      "src": "https://saetasport.vteximg.com.br/arquivos/footer-epartner.png",
+      "blockClass": "epartner"
+    }
+  },
+  "image#vtex": {
+    "props": {
+      "src": "https://saetasport.vteximg.com.br/arquivos/footer-vtex.png",
+      "blockClass": "vtex"
+    }
+  }
+}
