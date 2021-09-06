@@ -1,13 +1,13 @@
-.imageElement{
-    max-width: inherit;
+.imageElement {
+  max-width: inherit;
 }
-.sliderLayoutContainer--carousel1{
+.sliderLayoutContainer--carousel1 {
   margin: 0 0 50px 0;
 }
-.vtex-button__label{
+.vtex-button__label {
   display: none !important;
 }
-.sliderLayoutContainer--carousel{
+.sliderLayoutContainer--carousel {
   background: #f1f1f1;
   padding-bottom: 30px;
 }
@@ -25,42 +25,42 @@
   background: white;
   overflow: hidden;
 }
-.sliderTrackContainer--Cmarca{
+.sliderTrackContainer--Cmarca {
   padding: 22px 104px 22px 0;
 }
 
 .slide--Cmarca--visible {
   transform: translateX(-79px);
-  width: 3.56667%!important;
+  width: 3.56667% !important;
 }
-.sliderArrowsContainer--Cmarca{
-  top: 120px; 
+.sliderArrowsContainer--Cmarca {
+  top: 120px;
   background-color: black;
 }
-.caretIcon--Cmarca{
+.caretIcon--Cmarca {
   color: #1a0888;
   width: 60px;
   height: 60px;
 }
-.sliderLeftArrow--Cmarca{
+.sliderLeftArrow--Cmarca {
   background-color: rgba(0, 0, 0, 0.5);
 }
-.slide--bannersecun{
+.slide--bannersecun {
   margin: 35px 0 20px 0;
 }
-.sliderLeftArrow--mediosP .caretIcon--mediosP{
+.sliderLeftArrow--mediosP .caretIcon--mediosP {
   margin: 0 0 0 -12px;
   width: 15px;
 }
-.sliderRightArrow--mediosP .caretIcon--mediosP{
+.sliderRightArrow--mediosP .caretIcon--mediosP {
   margin: 0 -25px 0 0px;
   width: 15px;
 }
 .slide--mediosP {
   max-width: 500px;
 }
-.sliderRightArrow--Cmarca::before{
-  content: "";
+.sliderRightArrow--Cmarca::before {
+  content: '';
   opacity: 0.7;
   width: 146%;
   background: white;
@@ -69,8 +69,8 @@
   background-size: 100%;
   position: absolute;
 }
-.sliderLeftArrow--Cmarca::before{
-  content: "";
+.sliderLeftArrow--Cmarca::before {
+  content: '';
   opacity: 0.7;
   width: 146%;
   background: white;
@@ -79,25 +79,24 @@
   background-size: 100%;
   position: absolute;
 }
-.sliderLeftArrow--Cmarca{
+.sliderLeftArrow--Cmarca {
   z-index: 1;
 }
-.sliderRightArrow--Cmarca{
+.sliderRightArrow--Cmarca {
   z-index: 1;
 }
-.slide--hidden{
+.slide--hidden {
   background: black;
   z-index: 99999;
   opacity: 0.5;
-
 }
-.caretIcon--Cmarca::before{
-  content: "";
+.caretIcon--Cmarca::before {
+  content: '';
   width: auto;
   height: 100%;
   position: absolute;
 }
-.sliderLayoutContainer--carouselMobile{
+.sliderLayoutContainer--carouselMobile {
   display: none;
 }
 .sliderLayoutContainer--SecciEspecDescriG {
@@ -108,7 +107,7 @@
 }
 
 .sliderRightArrow--carousel-agendamiento::after {
-  content: "Siguiente";
+  content: 'Siguiente';
   visibility: initial;
   background: #3f3f3f;
   color: white;
@@ -119,7 +118,7 @@
   border-radius: 7px;
 }
 .sliderLeftArrow--carousel-agendamiento::after {
-  content: "Anterior";
+  content: 'Anterior';
   visibility: initial;
   background: #3f3f3f;
   color: white;
@@ -138,7 +137,7 @@
   right: unset;
 }
 .paginationDot--carouselBannerpri--isActive {
-  background-color: #FBCE2F;
+  background-color: #fbce2f;
   width: 60px !important;
   border-radius: 14px;
 }
@@ -151,22 +150,8 @@
   background: #000131;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 600px) {
-  .sliderLayoutContainer--carouselMobile{
+  .sliderLayoutContainer--carouselMobile {
     display: block !important;
   }
   .sliderLayoutContainer--carousel {
@@ -183,17 +168,35 @@
   }
   .slide--Cmarca--visible {
     transform: translateX(0px) !important;
-    width: 3.1%!important;
+    width: 3.1% !important;
   }
   .slide--Cmarca {
     opacity: 1;
     padding: 0px 10px;
     background-color: transparent;
   }
-  .slideChildrenContainer--Cmarca{
+  .slideChildrenContainer--Cmarca {
     opacity: 0.9;
   }
   .sliderLayoutContainer--SecciEspecDescriG {
-     padding: 0 10px !important; 
+    padding: 0 10px !important;
+  }
 }
+
+/* * New styles About us Page */
+/* !Purpose slider */
+.paginationDot--Purpose__slider--isActive {
+  background-color: #252525;
 }
+.slide--Purpose__slider--hidden {
+  background: transparent;
+}
+/* !News slider */
+.slideChildrenContainer--News__slider {
+  padding: 5px;
+}
+.slide--News__slider--hidden {
+  background: transparent;
+}
+
+/* * //New styles About us Page */

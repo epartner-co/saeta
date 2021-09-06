@@ -1,8 +1,7 @@
 {
-    "store.custom#factura": {
-      "blocks": [
-        "flex-layout.row#about-us"
-      ]
-    }
-
+  "store.custom#factura": {
+    "blocks": [
+      /* "flex-layout.row#about-us" */
+    ]
+  }
 }

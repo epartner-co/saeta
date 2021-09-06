@@ -1,0 +1,75 @@
+{
+  "flex-layout.row#container-info__news": {
+    "props": {
+      "blockClass": ["News"]
+    },
+    "children": ["flex-layout.col#news"]
+  },
+  "flex-layout.col#news": {
+    "props": {
+      "blockClass": ["News__container"]
+    },
+    "children": ["rich-text#news-title", "slider-layout#news-slider"]
+  },
+  "rich-text#news-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "# nuestras noticias",
+      "blockClass": ["News__title"]
+    }
+  },
+  "slider-layout#news-slider": {
+    "props": {
+      "blockClass": ["News__slider"],
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "infinite": true
+    },
+    "children": ["info-card#news1", "info-card#news2", "info-card#news3"]
+  },
+  "info-card#news1": {
+    "props": {
+      "blockClass": ["News__slider-item", "News__slider-item--news1"],
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "¿BÚSCAS PATROCINIO?",
+      "subhead": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor .",
+      "textAlignment": "center",
+      "callToActionText": "leer noticia",
+      "callToActionUrl": "#"
+    }
+  },
+  "info-card#news2": {
+    "props": {
+      "blockClass": ["News__slider-item", "News__slider-item--news2"],
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "VISTE TU EQUIPO EN SAETA",
+      "subhead": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor .",
+      "textAlignment": "center",
+      "callToActionText": "leer noticia",
+      "callToActionUrl": "#"
+    }
+  },
+  "info-card#news3": {
+    "props": {
+      "blockClass": ["News__slider-item", "News__slider-item--news3"],
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "NUESTROS VALORES",
+      "subhead": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor .",
+      "textAlignment": "center",
+      "callToActionText": "leer noticia",
+      "callToActionUrl": "#"
+    }
+  }
+}
