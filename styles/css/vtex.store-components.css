@@ -1760,7 +1760,7 @@
 
 /* !Banner top */
 .infoCardHeadline--About_banner--top {
-  margin-top: 470px;
+  margin-top: 125%;
   width: 100%;
   color: white;
   font-size: 70px;
@@ -1801,12 +1801,14 @@
   font-style: normal;
   font-weight: 100;
   line-height: 23px;
+  text-align: justify;
 }
 .infoCardCallActionContainer--Purpose__slider-item {
   display: none;
 }
 .infoCardImageContainer--Purpose__slider-item {
   margin-bottom: 17px;
+  padding: 10px;
 }
 .infoCardImage--Purpose__slider-item {
   border-radius: 10px;
@@ -1860,7 +1862,7 @@
 .infoCardContainer--Blog__item {
   display: flex;
   flex-direction: column-reverse;
-  padding-top: 20px;
+  padding: 10px;
 }
 .infoCardImage--Blog__item {
   border-radius: 10px;
@@ -1922,6 +1924,213 @@
 }
 /* !Slider bottom */
 .imageElement--Slider__item {
+  margin: 0;
   border-radius: 5px;
 }
+/* !Tab layout */
+.infoCardCallActionContainer--Tab__card {
+  display: none;
+}
+.infoCardContainer--Tab__card {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #f6f6f6;
+  padding-bottom: 15px;
+}
+.infoCardImage--Tab__card {
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.infoCardHeadline--Tab__card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  width: 100%;
+  color: #000131;
+  font-family: 'Anybody';
+  font-weight: 700;
+  line-height: 50px;
+  text-align: left;
+}
+.infoCardHeadline--Tab__card::before {
+  color: #0616c4;
+  font-family: 'Anybody';
+  font-size: 15px;
+  font-style: normal;
+  text-align: left;
+  font-weight: 400;
+  line-height: 19px;
+}
+.infoCardHeadline--Tab__card--1967::before {
+  content: 'Noviembre 15, 1967';
+}
+.infoCardHeadline--Tab__card--1982::before {
+  content: 'Noviembre 15, 1982';
+}
+.infoCardHeadline--Tab__card--1983::before {
+  content: 'Noviembre 15, 1983';
+}
+.infoCardHeadline--Tab__card--1984::before {
+  content: 'Noviembre 15, 1984';
+}
+.infoCardHeadline--Tab__card--1987::before {
+  content: 'Noviembre 15, 1987';
+}
+.infoCardHeadline--Tab__card--1989::before {
+  content: 'Noviembre 15, 1989';
+}
+.infoCardHeadline--Tab__card--1991::before {
+  content: 'Noviembre 15, 1991';
+}
+.infoCardHeadline--Tab__card--1992::before {
+  content: 'Noviembre 15, 1992';
+}
+.infoCardHeadline--Tab__card--1993::before {
+  content: 'Noviembre 15, 1993';
+}
+.infoCardSubhead--Tab__card {
+  margin-top: 0;
+  color: black;
+  font-family: 'Anybody';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+}
+@media (min-width: 600px) {
+  /* !Top Banner */
+  .infoCardHeadline--About_banner--top {
+    margin: 125% auto 0;
+    width: 90%;
+  }
+  .infoCardSubhead--About_banner--top {
+    margin: 0 auto 370px;
+    width: 90%;
+  }
+  /* !Purpose section */
+  .infoCardTextContainer--Purpose__slider-item {
+    padding: 0 40px;
+  }
+  .infoCardImageContainer--Purpose__slider-item {
+    padding: 10px 40px;
+  }
+  /* !Blog Section */
+  .infoCardContainer--Blog__item {
+    padding: 10px 40px;
+  }
+}
+
+@media (min-width: 640px) {
+  /* !Banner top */
+  .infoCardTextContainer--About_banner--top {
+    margin: 0;
+    width: 100%;
+  }
+  .infoCardHeadline--About_banner--top {
+    margin: 55% auto 0;
+  }
+  /* !Purpose section */
+  .infoCardContainer--Purpose__slider-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .infoCardTextContainer--Purpose__slider-item {
+    width: 100%;
+  }
+  .infoCardImageContainer--Purpose__slider-item {
+    width: 100%;
+  }
+  /* !News Section */
+  .infoCardTextContainer--News__slider-item {
+    width: 100%;
+  }
+  /* !Blog Section */
+  .infoCardTextContainer--Blog__item {
+    width: 100%;
+  }
+  .infoCardImageContainer--Blog__item {
+    width: 100%;
+  }
+  /* !Tab Layout Section  */
+  .infoCardTextContainer--Tab__card {
+    width: 100%;
+  }
+  .infoCardImageContainer--Tab__card {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1030px) {
+  /* !Banner top */
+  .infoCardHeadline--About_banner--top {
+    margin: 20% auto 0;
+    width: 80%;
+  }
+  .infoCardSubhead--About_banner--top {
+    width: 80%;
+    padding-right: 35%;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  /* !Purpose Section */
+  .infoCardHeadline--Purpose__slider-item {
+    width: 100%;
+    text-align: left;
+    font-size: 50px;
+  }
+  .infoCardSubhead--Purpose__slider-item {
+    font-size: 15px;
+  }
+  .infoCardTextContainer--Purpose__slider-item--mision {
+    padding-right: 10px;
+  }
+  .infoCardImageContainer--Purpose__slider-item--mision {
+    padding-right: 10px;
+  }
+  .infoCardTextContainer--Purpose__slider-item--vision {
+    padding-left: 10px;
+  }
+  .infoCardImageContainer--Purpose__slider-item--vision {
+    padding-left: 10px;
+  }
+  /* !News Section */
+  .infoCardTextContainer--News__slider-item {
+    margin: 0 11px;
+  }
+  .infoCardCallActionContainer--News__slider-item :global(.vtex-button__label) {
+    font-weight: 700;
+  }
+  /* !Blog Section */
+  .infoCardHeadline--Blog__item::before {
+    font-size: 15px;
+  }
+  .infoCardHeadline--Blog__item {
+    font-size: 25px;
+  }
+  .infoCardSubhead--Blog__item {
+    font-size: 15px;
+    line-height: 19px;
+  }
+  .infoCardCallActionContainer--Blog__item :global(.vtex-button__label) {
+    font-size: 15px;
+  }
+  /* !Tab Layout Section */
+  .infoCardContainer--Tab__card {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 50px;
+  }
+  .infoCardTextContainer--Tab__card {
+    padding: 0 30px;
+  }
+  .infoCardHeadline--Tab__card {
+    font-size: 55px;
+  }
+  .infoCardSubhead--Tab__card {
+    padding-top: 10px;
+  }
+}
+
 /* * //New styles About us Page */

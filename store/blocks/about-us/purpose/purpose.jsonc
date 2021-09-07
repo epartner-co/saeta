@@ -16,7 +16,7 @@
       "blockClass": ["Purpose__slider"],
       "itemsPerPage": {
         "desktop": 2,
-        "tablet": 2,
+        "tablet": 1,
         "phone": 1
       },
       "showPaginationDots": "always",
