@@ -9,8 +9,9 @@
     "props": {
       "blockClass": ["Blog__container"]
     },
-    "children": ["rich-text#blog-title", "info-card#blog-post1", "info-card#blog-post2"]
+    "children": ["rich-text#blog-title", "flex-layout.row#blog-posts"]
   },
+  // * Title Section
   "rich-text#blog-title": {
     "props": {
       "textAlignment": "CENTER",
@@ -19,12 +20,26 @@
       "blockClass": ["Blog__title"]
     }
   },
+  // * Slider Posts
+  "flex-layout.row#blog-posts": {
+    "props": {
+      "blockClass": ["Blog__posts"]
+    },
+    "children": ["flex-layout.col#posts"]
+  },
+  "flex-layout.col#posts": {
+    "props": {
+      "blockClass": ["Blog__posts-container"]
+    },
+    "children": ["info-card#blog-post1", "info-card#blog-post2", "info-card#blog-post3"]
+  },
+  // * Posts 1
   "info-card#blog-post1": {
     "props": {
       "blockClass": ["Blog__item", "Blog__item--post1"],
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "imageUrl": "https://saetasport.vteximg.com.br/arquivos/Blog-Image-1.png",
       "headline": "TÍTULO DEL BLOG",
       "subhead": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
       "textAlignment": "center",
@@ -32,12 +47,27 @@
       "callToActionUrl": "#"
     }
   },
+  // * Posts 2
   "info-card#blog-post2": {
     "props": {
       "blockClass": ["Blog__item", "Blog__item--post2"],
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "imageUrl": "https://saetasport.vteximg.com.br/arquivos/Blog-Image-2.png",
+      "headline": "TÍTULO DEL BLOG",
+      "subhead": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
+      "textAlignment": "center",
+      "callToActionText": "leer más",
+      "callToActionUrl": "#"
+    }
+  },
+  // * Posts 3
+  "info-card#blog-post3": {
+    "props": {
+      "blockClass": ["Blog__item", "Blog__item--post3"],
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://saetasport.vteximg.com.br/arquivos/Blog-Image-3.png",
       "headline": "TÍTULO DEL BLOG",
       "subhead": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
       "textAlignment": "center",

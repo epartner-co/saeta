@@ -626,8 +626,8 @@
 /* !tab Layout Section */
 .flexRow--History {
   position: relative;
-  left: -2%;
-  width: 104%;
+  left: -2.5%;
+  width: 105%;
 }
 
 @media (min-width: 600px) {
@@ -646,21 +646,9 @@
     margin: 10px 0;
   }
   /* !Blog Section */
-  .flexCol--Blog__container {
+  .flexCol--Blog__posts-container {
+    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-around;
-  }
-  .flexColChild--Blog__container {
-    width: 50%;
-    height: auto !important;
-  }
-  .flexColChild--Blog__container:first-child {
-    width: 100%;
-  }
-  .flexColChild--Blog__container:last-child {
-    width: 50%;
   }
 }
 /* * //New styles About us Page */

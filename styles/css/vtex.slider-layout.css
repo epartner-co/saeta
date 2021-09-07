@@ -226,13 +226,32 @@
   font-size: 15px !important;
 }
 .sliderLeftArrow--History__slider {
-  left: -20px;
+  left: -12px;
 }
 .sliderRightArrow--History__slider {
-  right: -20px;
+  right: -12px;
 }
 .slide--History__slider--hidden {
   background-color: transparent;
+}
+.sliderTrack--History__slider {
+  left: 8%;
+  width: 365% !important;
+}
+.caretIcon--History__slider {
+  padding: 10px;
+  width: 12px;
+  height: 12px;
+}
+.sliderLeftArrow--History__slider {
+  left: -7px;
+  background-color: white !important;
+  border-radius: 50%;
+}
+.sliderRightArrow--History__slider {
+  right: -7px;
+  background-color: white !important;
+  border-radius: 50%;
 }
 
 @media (min-width: 600px) {
@@ -257,6 +276,11 @@
   }
   .slideChildrenContainer--Slider__images-container {
     margin: 10px 5px;
+  }
+  /* !Tabs Layout Section */
+  .sliderTrack--History__slider {
+    left: 0%;
+    width: 300% !important;
   }
 }
 
