@@ -651,4 +651,11 @@
     flex-direction: row;
   }
 }
+
+@media (min-width: 1700px) {
+  /* !Blog Section */
+  .flexRow--Blog__posts {
+    padding: 0 100px;
+  }
+}
 /* * //New styles About us Page */

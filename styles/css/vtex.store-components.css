@@ -1816,6 +1816,7 @@
 }
 .infoCardImage--Purpose__slider-item {
   border-radius: 10px;
+  width: 100%;
 }
 /* !News slider */
 .infoCardSubhead--News__slider-item {
@@ -2163,4 +2164,23 @@
   }
 }
 
+@media (min-width: 1700px) {
+  /* !Purpose Section */
+  .infoCardTextContainer--Purpose__slider-item--mision {
+    padding: 0 10px 0 100px;
+  }
+  .infoCardImageContainer--Purpose__slider-item--mision {
+    padding: 0 10px 0 100px;
+  }
+  .infoCardTextContainer--Purpose__slider-item--vision {
+    padding: 0 100px 0 10px;
+  }
+  .infoCardImageContainer--Purpose__slider-item--vision {
+    padding: 0 100px 0 10px;
+  }
+  /* !Tab Layout section */
+  .infoCardContainer--Tab__card {
+    padding: 20px 120px;
+  }
+}
 /* * //New styles About us Page */

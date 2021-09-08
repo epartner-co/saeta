@@ -284,4 +284,15 @@
   }
 }
 
+@media (min-width: 1700px) {
+  /* !News Section */
+  .sliderTrackContainer--News__slider {
+    padding: 0 20px;
+  }
+  /* !Images Section */
+  .sliderTrackContainer--Slider__images-container {
+    padding: 0 50px;
+  }
+}
+
 /* * //New styles About us Page */
