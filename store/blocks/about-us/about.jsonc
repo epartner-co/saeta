@@ -34,8 +34,18 @@
       "flex-layout.row#container-info__news",
       "flex-layout.row#container-info__blog",
       "flex-layout.row#slider-content",
+      "rich-text#title-history",
       "flex-layout.row#history-content"
     ]
+  },
+  // * Title Section History
+  "rich-text#title-history": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "# nuestra historia",
+      "blockClass": ["History__title"]
+    }
   }
   /* "flex-layout.row#slider-content": {
     "props": {

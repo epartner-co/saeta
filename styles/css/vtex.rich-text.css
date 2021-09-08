@@ -785,11 +785,30 @@
   text-align: center;
   text-transform: uppercase;
 }
+/* !History Section */
+.container--History__title {
+  display: none;
+}
+.heading--History__title {
+  color: #000131;
+  font-family: 'Anybody';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 51px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 @media (min-width: 1030px) {
   /* !Blog Section */
   .heading--Blog__title {
     margin-bottom: 13px;
+  }
+  /* !History Section */
+  .container--History__title {
+    display: block;
   }
 }
 

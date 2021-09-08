@@ -3,14 +3,14 @@
     "props": {
       "blockClass": ["History"]
     },
-    "children": [/* "flex.layout.col#history" ,*/ "tab-layout#history"]
+    "children": ["tab-layout#history"]
   },
-  "flex-layout.col#history": {
+  /* "flex-layout.col#history": {
     "props": {
       "blockClass": ["History__container"]
     },
     "children": ["tab-layout#history"]
-  },
+  }, */
   "tab-layout#history": {
     "props": {
       "blockClass": ["History__layout"]
